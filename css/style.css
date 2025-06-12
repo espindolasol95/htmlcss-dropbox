@@ -3,10 +3,32 @@
     padding:0;
     box sizing: border-box;
 }
-
-header{ 
-    background-color: grey;
-    padding: 15px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
+header{ 
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    }
 
 /*layout*/
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+ul{ 
+   display: flex;
+   
+}
+ul li{
+    display: flex;
+    margin-right: 90px;
+}
+/*utility*/
+.button bg-blu {
+    background-color: blue;
+}
