@@ -20,6 +20,11 @@ header{
     flex-wrap: wrap;
 
 }
+.container2{
+    display:flex ;
+    padding: 3px 0px;
+    
+}
     
 ul{ 
    display: flex;
@@ -36,6 +41,8 @@ button {
     font-size: small;
 
 }
-.bg light-blue{
+.bg-lightblue{
     background-color: lightblue;
+    padding: 60px 40px;
+    text-align: left;
 }
