@@ -1,84 +1,13 @@
-Title
-===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+Esercizio di oggi:
+cartella/repo htmlcss-dropbox
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
-
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
-
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
+Descrizione
+Riproduciamo il layout come da screenshot (che rimane il nostro riferimento principale) cercando di essere il più fedeli possibili.
+Analizziamo sempre prima il layout e scriviamo dei commenti per individuare le macroaree.
+Facciamo un passo alla volta e puntiamo alla semplicità.
 
 
-## Directory Hierarchy
-```
-|—— css
-|    |—— img
-|        |—— business-feature-coordinate-it.png
-|        |—— business-feature-integrations-it.png
-|        |—— business-feature-multi-device.png
-|        |—— business-feature-security.png
-|        |—— business-feature-send-files-it.png
-|        |—— business-feature-switching-tools.png
-|        |—— jumbo.png
-|        |—— logo-small.png
-|        |—— partner.png
-|        |—— screenshot.jpg
-|    |—— style.css
-|—— index.html
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
-
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+Consigli:
+Teniamo sempre un approccio ordinato, solo quando tutto funziona passiamo al dettaglio, sezione per sezione. Cerchiamo però di bilanciare questo, organizzando il nostro tempo di sviluppo non incartandoci sulla singola feature, ma lasciando per dopo semmai i dettagli più complessi se è il caso.
+Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi mantenibile.
+Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un pò con unità relative, senza però crearci nuove difficoltà, tanto meglio.
