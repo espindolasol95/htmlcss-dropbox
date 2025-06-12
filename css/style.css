@@ -29,6 +29,8 @@ ul li{
     margin-right: 90px;
 }
 /*utility*/
-.button bg-blu {
+button {
     background-color: blue;
+    color: #fff;
+    font-size: mediu;
 }
