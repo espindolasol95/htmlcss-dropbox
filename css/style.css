@@ -7,7 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{ 
-    background-color: #fff;
+    background-color: grey;
     padding: 10px 20px;
     display: flex;
     }
@@ -20,6 +20,7 @@ header{
     flex-wrap: wrap;
 
 }
+    
 ul{ 
    display: flex;
    
@@ -32,5 +33,9 @@ ul li{
 button {
     background-color: blue;
     color: #fff;
-    font-size: mediu;
+    font-size: small;
+
+}
+.bg light-blue{
+    background-color: lightblue;
 }
