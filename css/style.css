@@ -10,6 +10,8 @@ header{
     background-color: #fff;
     padding: 10px 20px;
     display: flex;
+    
+
     }
 
 /*layout*/
@@ -21,18 +23,24 @@ header{
 
 }
 .container2{
-    display:flex ;
+    
     padding: 3px 0px;
     
 }
-.row{
- margin: 90px;   
+
+.col-60{
+margin:60px;
+font-size: 25px;
+margin-top: 0;
+margin-bottom: 30px;
+text-align: left;
 
 }
-.col-100{
-margin:60px ;
-display: flex;
-align-items:first center;
+.col-30  {
+font-size: 15px;
+max-width: 500px;
+margin-bottom: 30px;
+
 }
                                                     
     
@@ -49,10 +57,14 @@ button {
     background-color: blue;
     color: #fff;
     font-size: small;
+    cursor: pointer;
+    
 
 }
 .bg-lightblue{
     background-color: lightblue;
     padding: 60px 40px;
+    max-block-size: 1200px;
+
     
 }
