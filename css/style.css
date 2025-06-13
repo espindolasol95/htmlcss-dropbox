@@ -23,9 +23,21 @@ header{
 
 }
 .container2{
-    
     padding: 3px 0px;
+
     
+}
+
+.img-col{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    top: 60px;
+    border-radius: 8px;
+
 }
 
 .col-60{
@@ -65,6 +77,7 @@ button {
     background-color: lightblue;
     padding: 60px 40px;
     max-block-size: 1200px;
-
+    position: relative;
+    overflow: visible;
     
 }
