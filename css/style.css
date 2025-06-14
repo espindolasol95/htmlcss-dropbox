@@ -31,11 +31,21 @@ header{
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    position: relative;
-    
-
-    
+    position: relative;  
 }
+
+.grid-section{
+    background-color: #fff;
+    padding-top: 60px ;
+    padding-bottom:60px;
+    display: flex; 
+}
+/*non convinta se questa section è necesaria*/
+.grid-section h2{
+    font-size: 30px;
+    margin-top: 30px;
+}    
+   
 .bg-lightblue{
     background-color: lightblue;
     padding: 60px 40px;
@@ -72,6 +82,7 @@ header{
     
 
 }
+
 .col-30  {
 font-size: 20px;
 width: 50%;
@@ -89,15 +100,10 @@ font-size: 25px;
 margin-top: 0;
 margin-bottom: 30px;
 text-align: left;
-}
-
-
-                                                    
-    
+}    
 ul{ 
    display: flex;
-  
-   
+
 }
 ul li{
     display: flex;
@@ -111,4 +117,13 @@ button {
     cursor: pointer;
     
 
+}
+.push{
+    display: flex;
+    color: #333;
+    margin-bottom: 30px;
+}
+.push input[ type="radio"]{
+    margin-right: 10px;
+    accent-color: blue;
 }
