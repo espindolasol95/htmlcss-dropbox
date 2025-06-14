@@ -34,6 +34,8 @@ header{
     position: relative;  
 }
 
+}
+
 .grid-section{
     background-color: #fff;
     padding-top: 60px ;
@@ -41,9 +43,9 @@ header{
     display: flex; 
 }
 /*non convinta se questa section è necesaria*/
-.grid-section h2{
+.section-h2{
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 90px;
 }    
    
 .bg-lightblue{
@@ -90,10 +92,17 @@ max-width: 500px;
 margin-bottom: 30px;
 padding-right: 40%;
 }
- 
 .col-33{
-   width: 33% - 20px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-radius: 1px;
+    width:calc(100% / 3)
+    
+    
+
 }
+ 
 .col-60{
 margin:60px;
 font-size: 25px;
@@ -107,8 +116,10 @@ ul{
 }
 ul li{
     display: flex;
+    
     margin-right: 90px;
 }
+
 /*utility*/
 button {
     background-color: blue;
