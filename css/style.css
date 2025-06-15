@@ -34,13 +34,16 @@ header{
     position: relative;  
 }
 
-}
 
-.grid-section{
+
+.container-griglia{
     background-color: #fff;
+    padding: 60px 40px;
+    justify-content: center;
     padding-top: 60px ;
     padding-bottom:60px;
     display: flex; 
+    width: 70%
 }
 /*non convinta se questa section è necesaria*/
 .section-h2{
@@ -61,11 +64,16 @@ header{
     
 }
 .row{
-     justify-content: space-between;
-     width: 100%;
-     max-width: 1200px;
-     padding-right: 40px;
+ justify-content: space-between;
+ width: 100%;
+  max-width: 1200px;
+ padding-right: 40px;
 }
+.row{
+    
+    flex-wrap: wrap;
+    gap: 20px;
+}    
 .img-block{
   
     position: relative;
@@ -84,6 +92,16 @@ header{
     
 
 }
+.box{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
 
 .col-30  {
 font-size: 20px;
@@ -93,11 +111,13 @@ margin-bottom: 30px;
 padding-right: 40%;
 }
 .col-33{
-    margin: auto;
+    
     margin-top: 0;
     margin-bottom: 30px;
-    border-radius: 1px;
-    width:calc(100% / 3)
+    border-radius: 2px;
+    width:calc(100% / 3 - 20px);
+    padding: 20px;
+   
     
     
 
